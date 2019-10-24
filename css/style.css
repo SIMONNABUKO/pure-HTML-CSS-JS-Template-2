@@ -1,0 +1,88 @@
+body,
+html {
+    background-color: #fff;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#home {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/img/home-bg.jpg);
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #000;
+    opacity: 0.9;
+}
+
+.navbar {
+    display: flex;
+    width: 100vw;
+    height: auto;
+    background-color: #333;
+    position: fixed;
+    opacity: 0.7;
+    z-index: 1;
+}
+
+.call-to-action1 {
+    width: 90vw;
+    position: relative;
+    margin-top: 50vh;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100vw;
+    list-style: none;
+    font-weight: 800;
+}
+
+.logo {
+    font-weight: 800;
+    font-size: 50px;
+    position: relative;
+    padding-left: 5vw;
+    font-family: parchment;
+}
+
+.nav-item {
+    padding-right: 5vw;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.call-to-action1 a {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px;
+    cursor: pointer;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-radius: 8%;
+}
+
+.call-to-action1 a:hover {
+    background-color: limegreen;
+}
+
+#about-us {}
