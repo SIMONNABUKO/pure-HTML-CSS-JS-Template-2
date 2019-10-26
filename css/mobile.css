@@ -1,0 +1,30 @@
+@media only screen and (max-width: 576px) {
+    .team-item img {
+        /* width: 100vw !important;
+        height: 400px !important; */
+    }
+    .nav,
+    .navbar {
+        flex-direction: column !important;
+        background-color: #000;
+        opacity: 0.9;
+    }
+    .nav {
+        align-items: stretch;
+        display: none !important;
+    }
+    .nav-item {}
+    .nav-link {
+        color: #7ed957 !important;
+    }
+    .portfolio-item-content {
+        z-index: 1;
+        display: block !important;
+    }
+}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (min-width: 992px) {}
+
+@media screen and (min-width: 1200px) {}

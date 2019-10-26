@@ -1,0 +1,32 @@
+.fa-facebook {
+    color: #3b5998;
+}
+
+.fa-linkedin {
+    color: #0e76a8;
+}
+
+.fa-instagram {
+    color: #3f729b;
+}
+
+.fa-twitter {
+    color: #00acee;
+}
+
+.facts-item h1 {
+    color: #7ed957;
+}
+
+.call-to-action1 span {
+    color: #7ed957;
+}
+
+.service i {
+    color: #7ed957;
+    border-radius: 50%;
+}
+
+.team-details i {
+    margin-right: 20px;
+}
